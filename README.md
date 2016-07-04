@@ -1,2 +1,2 @@
-# Estudos70-480
-Estudos para a certificação 70-480
+# Estudo 70-480
+Estudo para a certificação 70-480
