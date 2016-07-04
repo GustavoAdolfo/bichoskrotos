@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Livraria.Models.EdicaoModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grid = new WebGrid(Model);
+    grid.SortDirection = SortDirection.Ascending;
+    
+}
+
+<h2>Estante Virtual</h2>
+
+@grid.GetHtml(
+    mode: WebGridPagerModes.Numeric,
+    columns:grid.Columns(
+        grid.Column("Titulo", header:"Título"),
+        grid.Column("Autor", header:"Autor"),
+        grid.Column("CapaGrande", header: "Capa",
+            format: @<text>
+                        
+                        @Html.Raw(string.Format("<img src=\"{0}\"/>", (item.CapaGrande as string)
+                       .Substring((item.CapaGrande as string).LastIndexOf("(jpeg)/") + 7)))
+                     </text>)
+        )
+    )
