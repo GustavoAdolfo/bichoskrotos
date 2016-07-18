@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html dir="ltr" manifest="bichoskrotos.appcache" itemscope="" itemtype="http://schema.org/Property" lang="pt-br">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>BichoSkrotos - Ordem Phthiraptera</title>
+
+    <meta charset="utf-8">
+    <!-- iso-8859-1, etc (Deve-se sempre especificar a codificação de caracteres da página) -->
+    <!-- <meta http-equiv="cache-control" content="public"/> (Para o HTTP 1.1 com os valores possíveis: public, private, no-cache, no-store; porém, no HTML5 é utilizado o Application Cache informado no atributo manifest da tag html-->
+    <!-- <meta http-equiv="pragma" content="no-cache"/> (Todas as versões do HTTP)-->
+    <!-- <meta http-equiv="content-language" content="pt-br" /> (Não conformidade com HTML5; agora utiliza-se o atributo lang)-->
+    <!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> (Recomenda-se utilizar agora o meta charset; de qualquer forma, ou utiza-se um ou o outro pois especificar ambos invalida o documento) -->
+    <!-- <meta http-equiv="expires" content="Sun, 01 jan 2017 00:00:00 GMT" /> (Em HTML5 utilizar diretamente o http header equivalente) -->
+    <!--<meta http-equiv="expires" content="0" />-->
+    <!-- <meta http-equiv="refresh" content="60"/> (não há necessidade de usá-lo nesse projeto)-->
+    <!-- <meta http-equiv="refresh" content="60;url=http://www.example.com" /> -->
+    <!--<meta http-equiv="imagetoolbar" content="no" /> (versões antigas do Internet Explorer)-->
+    <!--<meta name="application-name" content="BichoSkrotos" /> (Define o nome da aplicação o web. Não é nosso caso no momento)  -->
+    <meta name="custodian" content="Gustavo Adolfo">
+    <!-- O(s) profissional(is) responsável(is) pela criação e manutenção do documento -->
+    <meta name="description" content="Site criado para estudo preparatório ao exame de certificação MS 70-480">
+    <meta name="keywords" content="certificação, exame, Microsoft, HTML, HTML5, JavaScript, CSS, CSS4, inseto, bicho, barata, besouro, aranha">
+    <meta name="author" content="Gustavo Adolfo">
+    <meta name="copyright" content="2016 - Direitos autorais não reservados">
+    <meta name="robots" content="index, follow">
+    <!-- all, index, noindex, follow, nofollow, none, noarchive (google)-->
+    <meta name="generator" content="Microsoft Visual Studio Community 2015">
+    <!-- vamos deixar assim apenas para exemplo -->
+    <meta name="revisit-after" content="20 days">
+    <meta name="rating" content="14 years">
+    <!-- general, 14 years, mature -->
+    <!-- <meta name="googlebot" content="noindex" /> (GoogleBoot)-->
+    <!-- meta tags Dublin Core -->
+    <link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+    <meta name="dc.date.modified" content="2016-07-12">
+    <meta name="dc.date.created" content="2016-07-12">
+    <!-- YYYY-MM-DDThh:mm:ssTZD-->
+    <meta name="dc.creator.address" content="gustavo.adolfo.as@gmail.com">
+    <meta name="dc.identifier" content="http://codigoharmonico.blog.br">
+    <meta name="dc.format" content="text/html">
+    <meta name="dc.type" content="text;image;video">
+    <meta name="dc.publisher" content="Gustavo Adolfo">
+    <!-- Nome da organização (publicadora) responsável pelo documento -->
+    <!-- complementar à tag title -->
+    <!-- <meta name="dc.title" content="BichoSkrotos: Tudo o que restará na face da Terra"> Ainda causa problemas com validação -->
+    <meta name="dcterms.title" content="BichoSkrotos: Tudo o que restará na face da Terra">
+    <meta name="dc.title.alternative" content="Programando com insetos" lang="pt-BR">
+    <!-- dispensa comentários... -->
+    <!-- Social meta tags -->
+    <!-- Google+ -->
+    <meta itemprop="name" content="BichoSkrotos">
+    <meta itemprop="description" content="Programando com os insetos, pois somente eles sobreviverão">
+    <!-- <meta itemprop="image" content="http://www.example.com/image.jpg"> -->
+    <!-- o logo ou imagem que represente o site -->
+    <!-- Twitter -->
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <!-- uma imagem grande para descrever a página compartilhada -->
+    <!-- <meta name="twitter:site" content="@Gu57av0Ad01f0"> -->
+    <!-- a página no Twitter do projeto (ainda não há) -->
+    <meta name="twitter:title" content="BichoSkrotos">
+    <meta name="twitter:description" content="Programando com os insetos, pois somente eles sobreviverão">
+    <meta name="twitter:creator" content="@Gu57av0Ad01f0">
+    <!-- <meta name="twitter:image:src" content="http://www.example.com/image.jpg"> -->
+    <!-- o logo ou imagem que represente o site -->
+    <!-- Open Graph (Facebook) -->
+    <meta property="og:title" content="BichoSkrotos">
+    <meta property="og:type" content="blog">
+    <meta property="og:url" content="http://codigoharmonico.blog.br/">
+    <!-- Terá url do projeto quando for publicado -->
+    <!-- <meta property="og:image" content="http://example.com/image.jpg" /> -->
+    <!-- o logo ou imagem que represente o site -->
+    <meta property="og:description" content="Programando com os insetos, pois somente eles sobreviverão">
+    <meta property="og:site_name" content="BichoSkrotos - Estudo para exame de certificação 70-480">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="article:section" content="MS70-480">
+    <meta property="article:tag" content="Certificação, HTML5, CSS3, JavaScript, 70-480">
+    <meta property="article:published_time" content="2016-07-15T06:06:00-03:00">
+    <meta property="article:modified_time" content="2016-07-15T06:06:00-03:00">
+    <meta property="fb:admins" content="1619585915018740">
+    <!-- <meta property="og:image" content="www.example.com/image.jpg"> -->
+    <!-- <meta property="og:image:type" content="image/jpeg"> -->
+    <!-- <meta property="og:image:width" content="xyz"> em pixels -->
+    <!-- <meta property="og:image:height" content="xyz"> em pixels -->
+    <!-- Links -->
+    <link rel="author" href="https://br.linkedin.com/in/gustavoadolfoas">
+    <link rel="help" href="http://bichoskrotos.azurewebsites.net/sobre.html">
+    <link rel="icon" href="http://bichoskrotos.azurewebsites.net/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="index_files/base.html" media="screen">
+    <link rel="stylesheet" type="text/css" href="index_files/print.html" media="print">
+
+    <script type="text/javascript" src="index_files/bichoskrotos.html"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="logo"><img src="index_files/logo.html" alt="Logotipo BichoSkrotos" title="Bichos Skrotos"></div>
+        <!-- <hgroup> Obsoleto. Removido na última revisão do padrão -->
+        <h1 title="Bichos Skrotos">BichoSkrotos</h1>
+        <h2>Estudos Para Exame MS 70-480</h2>
+        <h4>Programando com os insetos</h4>
+        <!-- </hgroup> Obsoleto. Removido na última revisão do padrão -->
+        <blockquote>
+            <q>Oncinha pintada / Zebrinha listrada / Coelhinho peludo / Vão se fuder! / Porque aqui / Na face da terra / 
+                Só bicho escroto  / É o que vai ter.</q>
+            <cite><a href="http://www.titas.net/" target="_blank" title="Site oficial da banda Titãs">Titãs</a> - Álbum Cabeça Dinossauro</cite>
+        </blockquote>
+
+        <nav>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="/thysanura/">Ordem Thysanura</a></li>
+                <li><a href="/ephemeroptera/">Ordem Ephemeroptera</a></li>
+                <li><a href="/odonata/">Ordem Odonata</a></li>
+                <li><a href="/plecoptera/">Ordem Plecoptera</a></li>
+                <li><a href="/blattodea/">Ordem Blattodea</a></li>
+                <li><a href="/isoptera/">Ordem Isoptera</a></li>
+                <li><a href="/mantodea/">Ordem Mantodea</a></li>
+                <li><a href="/dermaptera/">Ordem Dermaptera</a></li>
+                <li><a href="/orthoptera/">Ordem Orthoptera</a></li>
+                <li><a href="/phasmatodea/">Ordem Phasmatodea</a></li>
+                <li><a href="#">Ordem Phthiraptera</a></li>
+                <li><a href="/thysanoptera/">Ordem Thysanoptera</a></li>
+                <li><a href="/hemiptera/">Ordem Hemiptera</a></li>
+                <li><a href="/neuroptera/">Ordem Neuroptera</a></li>
+                <li><a href="/coleoptera/">Ordem Coleoptera</a></li>
+                <li><a href="/siphonaptera/">Ordem Siphonaptera</a></li>
+                <li><a href="/diptera/">Ordem Diptera</a></li>
+                <li><a href="/lepidoptera/">Ordem Lepidoptera</a></li>
+                <li><a href="/hymenoptera/">Ordem Hymenoptera</a></li>
+                <li><a href="/sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="apresentacao">
+            <div>
+                <!-- apresentação para a página inicial -->
+                A atual classificação dos insetos teve início com Linnaeus em 1735, até chegar às divisões que são utilizadas hoje em dia.
+                Seguindo as categorias taxonômicas, os insetos pertencem ao Reino Animal, Filo Arthropoda e Classe Insecta.
+                A partir das particularidades e características em comum, são divididos em Ordens específicas, das quais,
+                de acordo com Gallo (2002) destacam-se:
+            </div>
+
+            <div>
+                <!-- painel com blocos sobre as ordens -->
+
+                <div>
+                    <header>
+                        <h1>Ordem Thysanura</h1></header>
+                    <div>
+                        <p>São os insetos mais primitivos, sem asas, com olhos reduzidos ou ausentes, antenas filiforme, aparelho
+                            bucal mastigador, pernas ambulatórias, reprodução sexuada e desenvolvimento por ametabolia. Representados
+                            pelas traças-de-livros.
+                        </p>
+                    </div>
+                    <footer><a href="/thysanura/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Ephemeroptera</h1></header>
+                    <div>
+                        <p>São insetos cujos adultos vivem apenas algumas horas e as formas imaturas (jovens) são aquáticas,
+                            aparelho bucal é mastigador, antenas curtas, olhos compostos desenvolvidos, reprodução sexuada
+                            e desenvolvimento por hemimetabolia. Representados pelas efemérides.
+                        </p>
+                    </div>
+                    <footer><a href="/ephemeroptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Odonata</h1></header>
+                    <div>
+                        <p>Apresentam aparelho bucal mastigador com mandíbulas fortes e grandes, são predadores, a reprodução
+                            é sexuada com desenvolvimento hemimetabólico, sendo a fase imatura desenvolvendo-se na água.
+                            Representados pelas libélulas.
+                        </p>
+                    </div>
+                    <footer><a href="/odonata/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Plecoptera</h1></header>
+                    <div>
+                        <p>Insetos com corpo deprimido, antenas do tipo setáceas longas, aparelho bucal mastigador, são predadores,
+                            possuem asas membranosas que recobrem todo o abdômen, reprodução sexuada com desenvolvimento
+                            hemimetabólico, com os ovos depositados em riachos.
+                        </p>
+                    </div>
+                    <footer><a href="/plecoptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Blattodea</h1></header>
+                    <div>
+                        <p> Olhos compostos e grandes, antenas localizadas entre os olhos e do tipo filiforme ou setácea, asas
+                            anteriores do tipo tégmina e posteriores membranosas, reprodução sexuada e desenvolvimento por
+                            hemimetabolia, com a postura dos ovos em estojos (ootecas). Representados pelas baratas.
+                        </p>
+                    </div>
+                    <footer><a href="/blattodea/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Isoptera</h1></header>
+                    <div>
+                        <p>Insetos sociais com a presença de castas ápteras e aladas, antenas moniliformes, asas membranosas
+                            presentes nas formas reprodutoras, reprodução sexuada e desenvolvimento por hemimetabolia. Representados
+                            pelos cupins.
+                        </p>
+                    </div>
+                    <footer><a href="/isoptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Mantodea</h1></header>
+                    <div>
+                        <p>Antenas setáceas ou filiformes, pernas anteriores do tipo raptatória, aparelho bucal mastigador,
+                            são predadores, asas anteriores do tipo tégminas e posteriores membranosas, reprodução sexuada
+                            e desenvolvimento por hemimetabolia, com a postura dos ovos em estojos (ootecas). Representados
+                            pelos louva-a-deus.
+                        </p>
+                    </div>
+                    <footer><a href="/mantodea/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Dermaptera</h1></header>
+                    <div>
+                        <p>Aossuem olhos bem desenvolvidos, aparelho bucal mastigador, são espécies predadoras, antenas filiformes,
+                            asas anteriores do tipo élitro e curtas e posteriores membranosas dobradas em forma de leque
+                            sob os élitros, reprodução sexuada e desenvolvimento por hemimetabolia. Representados pelas tesourinhas.</p>
+                    </div>
+                    <footer><a href="/dermaptera/">Saiba mais</a></footer>
+                </div>
+
+
+                <div>
+                    <header>
+                        <h1>Ordem Orthoptera</h1></header>
+                    <div>
+                        <p>Possuem o terceiro par de pernas saltatória, antenas filiformes ou setáceas, asa anterior tipo tégmina
+                            e posterior membranosa, órgãos auditivos (tímpanos) no abdômen ou na base das tíbias anteriores,
+                            emitem som pela estridulação das tégminas, reprodução geralmente sexuada com a postura de ovos,
+                            mas podem ocorrer casos de partenogênese e o desenvolvimento é hemimetabólico. Representados
+                            pelos grilos, gafanhotos, esperanças, paquinhas.
+                        </p>
+                    </div>
+                    <footer><a href="/orthoptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Phasmatodea</h1></header>
+                    <div>
+                        <p>Olhos compostos e desenvolvidos, antenas setáceas, aparelho bucal mastigador, corpo delgado e cilíndrico,
+                            maioria com asa anterior atrofiada, reprodução sexuada mas podendo haver partenogênese, com desenvolvimento
+                            por hemimetabolia. Representados pelos bichos-pau.
+                        </p>
+                    </div>
+                    <footer><a href="/phasmatodea/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Phthiraptera</h1></header>
+                    <div>
+                        <p>Aparelho bucal mastigador ou sugador labial, ápteros, ectoparasitas de aves e mamíferos, pernas ambulatórias
+                            ou escansoriais, reprodução sexuada com desenvolvimento por hemimetabolia. Representados pelos
+                            piolhos.
+                        </p>
+                    </div>
+                    <footer><a href="/phthiraptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Thysanoptera</h1></header>
+                    <div>
+                        <p>Olhos compostos desenvolvidos, antenas filiformes ou moniliformes, aparelho bucal sugador labial,
+                            asas franjadas, reprodução sexuadas podendo ocorrer partenogênese, com desenvolvimento hemimetabólico.
+                            Representados pelos tripes.
+                        </p>
+                    </div>
+                    <footer><a href="/thysanoptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Hemiptera</h1></header>
+                    <div>
+                        <p>Aparelho bucal sugador labial, asas anteriores tipo tégmina ou hemiélitro e posteriores membranosas,
+                            podem ser fitófagos ou predadores, reprodução sexuada ou partenogenética, com desenvolvimento
+                            por hemimetabolia. Representados pelas cochonilhas, mosca-branca, cigarras, percevejos, pulgões,
+                            baratas-d’água.
+                        </p>
+                    </div>
+                    <footer><a href="/hemiptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Neuroptera</h1></header>
+                    <div>
+                        <p>Aparelho bucal mastigador, antenas moniliformes, filiformes, setáceas ou clavadas, reprodução sexuada
+                            com desenvolvimento holometabólico com fases predadoras. Representados pelo bicho-lixeiro, formiga-leão.
+                        </p>
+                    </div>
+                    <footer><a href="/neuroptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Coleoptera</h1></header>
+                    <div>
+                        <p>Asas anteriores tipo élitro e posteriores membranosas, aparelho bucal mastigador, pernas geralmente
+                            ambulatórias, mas podendo ocorrer fossoriais e natatórias, reprodução sexuada com desenvolvimento
+                            por holometabolia. Representados pelos besouros, vaga-lumes.
+                        </p>
+                    </div>
+                    <footer><a href="/coleoptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Siphonaptera</h1></header>
+                    <div>
+                        <p>Corpo comprimido, ectoparasitas, antenas curtas, aparelho bucal sugador labial, pernas saltatórias,
+                            reprodução sexuada com desenvolvimento por holometabolia. Representados pelas pulgas.
+                        </p>
+                    </div>
+                    <footer><a href="/siphonaptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Diptera</h1></header>
+                    <div>
+                        <p>Asas posteriores modificadas em halteres/balancins para equilíbrio no voo, aparalho bucal sugador
+                            labial, antenas plumosas, filiformes ou aristdas, reprodução sexuada com desenvolvimento por
+                            holometabolia. Representados pelas moscas, pernilongos, mosquitos, mutucas.
+                        </p>
+                    </div>
+                    <footer><a href="/diptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Lepidoptera</h1></header>
+                    <div>
+                        <p>Asas recobertas por escamas, aparelho bucal sugador maxilar (espirotrompa ou probóscida), antenas
+                            clavadas, filiformes, fusiformes, pectinadas, reprodução sexuada podendo ocorrer partenogênese,
+                            com desenvolvimento holometabólico com fase imatura denominada de lagarta. Representados pelas
+                            borboletas e mariposas.</p>
+                    </div>
+                    <footer><a href="/lepidoptera/">Saiba mais</a></footer>
+                </div>
+
+                <div>
+                    <header>
+                        <h1>Ordem Hymenoptera</h1></header>
+                    <div>
+                        <p>Considerados os insetos mais evoluídos, são sociais com divisão do trabalho em castas, apresentam
+                            antena do tipo geniculada, geniculo-clavada ou filiforme, aparelho bucal mastigador ou lambedor,
+                            reprodução sexuada, podendo ocorrer partenogênese, com desenvolvimento por holometabolia. Representados
+                            pelas vespas, marimbondos abelhas, formigas.</p>
+                    </div>
+                    <footer><a href="/hymenoptera/">Saiba mais</a></footer>
+                </div>
+
+            </div>
+
+            <footer>
+                <!-- fontes, referências, etc. -->
+                <p>Fonte:
+                    <strong>
+                    <a href="http://www.portaleducacao.com.br/biologia/artigos/45156/classificacao-dos-insetos" 
+                    title="PORTAL EDUCAÇÃO - Cursos Online : Mais de 1000 cursos online com certificado"
+                    target="_blank">PORTAL EDUCAÇÃO</a> - Artigo por <cite>Colunista Portal - Educação</cite> - <time datetime="2013-04-22">22 de abril de 2013</time>
+                    </strong>
+                </p>
+
+
+            </footer>
+        </section>
+
+        <section>
+            <p>O objetivo desse site é praticar os conhecimentos adquiridos para o exame de certificação da Microsoft 70-480.</p> 
+            <p>Todo o conteúdo informativo aqui utilizado foi retirado das fontes citadas e mantidas às quais todos os direitos são reservados.</p>
+        </section>
+    </main>
+
+    <footer>
+        <span>Versão: <b>0.1.002</b></span>
+        <span>Última revisão: <time datetime="2016-07-17">17/07/2016</time></span>
+        <span><a href="https://github.com/GustavoAdolfo/bichoskrotos" title="Repositório no GitHub" target="_blank">GitHub</a></span>
+    </footer>
+
+
+</body>
+
+</html>
