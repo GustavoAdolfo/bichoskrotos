@@ -1,4 +1,3 @@
-.gitignore
 Web.Debug.config
 Web.config
 website.publishproj
