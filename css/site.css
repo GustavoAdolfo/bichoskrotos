@@ -1,0 +1,139 @@
+@import url("/css/ionicons.css");
+#locust {
+    width: 240px;
+    margin-right: 20px;
+    float: left;
+    background: #999;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #999, #ccc);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999, #ccc);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999, #ccc);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999, #ccc);
+    /* Standard syntax (must be last) */
+}
+
+#img-locust {
+    width: 200px;
+    height: 260px;
+    mix-blend-mode: multiply;
+}
+
+#apresentacao {}
+
+#resumo {}
+
+#paineis {
+    height: 100%;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.painel-ordem {
+    background: #b9a78f;
+    min-height: 340px;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px #56442C;
+    position: relative;
+}
+
+.painel-ordem h1,
+.painel-ordem h2,
+.painel-ordem h3,
+.painel-ordem h4,
+.painel-ordem h5,
+.painel-ordem h6 {
+    text-align: left;
+    margin-top: 0;
+}
+
+.painel-ordem img {
+    margin-right: 20px;
+    float: left;
+    vertical-align: middle;
+    mix-blend-mode: multiply;
+}
+
+.painel-ordem header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    display: block;
+    min-height: 60px;
+}
+
+.painel-ordem p {
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    clear: both !important;
+    display: block;
+}
+
+.painel-ordem p::after {
+    content: "";
+    display: block;
+    height: 20px;
+}
+
+.painel-ordem footer {
+    width: 95%;
+    display: block;
+    text-align: right;
+    padding: 6px;
+    bottom: 4px;
+    padding: 4px 10px;
+    position: absolute;
+    height: 40px;
+}
+
+.painel-ordem footer a {
+    padding: 6px;
+    display: inline-block;
+    background: #56442C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.painel-ordem footer a:hover {
+    background: #96846C;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.painel-ordem footer a::after {
+    font-family: Ionicons;
+    content: " \f363";
+}
+
+@media screen and (max-width: 360px) {
+    .painel-ordem {
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    .painel-ordem {
+        width: 45%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .painel-ordem {
+        width: 30%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
