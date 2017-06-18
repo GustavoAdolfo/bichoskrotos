@@ -1,4 +1,3 @@
-@import url("/css/ionicons.css");
 #locust {
     width: 240px;
     margin-right: 20px;
@@ -24,6 +23,98 @@
 #apresentacao {}
 
 #resumo {}
+
+#voltar-topo {
+    /*position: fixed;*/
+    z-index: 50;
+    font-size: 8pt;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    bottom: 10px;
+    background: #333;
+    color: #fff;
+}
+
+body>header #logo {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#logo-principal {
+    width: inherit !important;
+    height: inherit !important;
+}
+
+body>header #cabecalho {
+    max-width: 79%;
+    height: 200px;
+    float: right;
+    padding: 6px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+#cabecalho blockquote {
+    padding: 4px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 1px #000;
+    max-width: 50%;
+    float: right;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 12pt;
+}
+
+#cabecalho blockquote a {
+    color: #cfcf5c;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#cabecalho blockquote a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.painel-ordem footer a::after {
+    font-family: Ionicons;
+    content: " \f363";
+}
+
+@media screen and (max-width: 360px) {
+    .painel-ordem {
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    .painel-ordem {
+        width: 45%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .painel-ordem {
+        width: 30%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
 
 #paineis {
     height: 100%;
@@ -99,41 +190,13 @@
     color: #fff;
     text-decoration: none;
     border-radius: 10px;
+    text-shadow: none;
 }
 
 .painel-ordem footer a:hover {
     background: #96846C;
-    color: #333;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
-}
-
-.painel-ordem footer a::after {
-    font-family: Ionicons;
-    content: " \f363";
-}
-
-@media screen and (max-width: 360px) {
-    .painel-ordem {
-        width: 100%;
-        padding: 5px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 980px) {
-    .painel-ordem {
-        width: 45%;
-        padding: 10px;
-        margin-left: 10px;
-        margin-right: 5px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .painel-ordem {
-        width: 30%;
-        padding: 10px;
-        margin-left: 10px;
-        margin-right: 5px;
-    }
+    text-shadow: none;
 }
