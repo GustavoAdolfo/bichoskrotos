@@ -25,15 +25,27 @@
 #resumo {}
 
 #voltar-topo {
-    /*position: fixed;*/
-    z-index: 50;
-    font-size: 8pt;
-    width: 30px;
-    height: 30px;
+    position: fixed;
+    z-index: 100;
+    width: 38px;
+    height: 38px;
+    padding: 3px 2px 2px;
     right: 0;
     bottom: 10px;
-    background: #333;
-    color: #fff;
+    background: #000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#voltar-topo a,
+#voltar-topo a:hover,
+#voltar-topo a:visited {
+    text-decoration: none;
+    background: none;
+}
+
+#voltar-topo a:hover::before {
+    content: "";
 }
 
 body>header #logo {

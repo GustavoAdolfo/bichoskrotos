@@ -218,7 +218,7 @@ footer {
 
 footer a,
 footer a:visited {
-    color: #dfcf5f;
+    color: #dfcf5f !important;
     text-decoration: none;
 }
 
@@ -253,11 +253,6 @@ body a {
 body a:hover {
     color: #fff;
     background: #000;
-}
-
-body a:hover::before {
-    font-family: Ionicons;
-    content: " \f363\ ";
 }
 
 strong,
