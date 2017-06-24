@@ -97,6 +97,11 @@ nav li a:hover {
     font-weight: bold !important;
 }
 
+nav li a:hover::after {
+    font-family: Ionicons !important;
+    content: " \f363";
+}
+
 nav li a:active {
     background: #c6c4cC !important;
     color: #000 !important;
@@ -105,7 +110,7 @@ nav li a:active {
 
 nav li a:active::before {
     font-family: Ionicons !important;
-    content: "\f35f \ " !important;
+    content: "\f35f\ " !important;
 }
 
 nav li a:active::after {
@@ -258,11 +263,6 @@ body a:hover {
 strong,
 b {
     letter-spacing: .15em;
-}
-
-.painel-ordem footer a::after {
-    font-family: Ionicons;
-    content: " \f363";
 }
 
 @media screen and (max-width: 360px) {

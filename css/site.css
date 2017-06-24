@@ -212,3 +212,8 @@ body>header #cabecalho {
     text-decoration: none;
     text-shadow: none;
 }
+
+.painel-ordem footer a::after {
+    font-family: Ionicons;
+    content: " \f363";
+}
