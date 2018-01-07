@@ -217,3 +217,7 @@ body>header #cabecalho {
     font-family: Ionicons;
     content: " \f363";
 }
+
+mark {
+    background-color: #c6b49C;
+}
