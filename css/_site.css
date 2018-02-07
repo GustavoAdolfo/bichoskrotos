@@ -1,0 +1,223 @@
+#locust {
+    width: 240px;
+    margin-right: 20px;
+    float: left;
+    background: #999;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #999, #ccc);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999, #ccc);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999, #ccc);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999, #ccc);
+    /* Standard syntax (must be last) */
+}
+
+#img-locust {
+    width: 200px;
+    height: 260px;
+    mix-blend-mode: multiply;
+}
+
+#apresentacao {}
+
+#resumo {}
+
+#voltar-topo {
+    position: fixed;
+    z-index: 100;
+    width: 38px;
+    height: 38px;
+    padding: 3px 2px 2px;
+    right: 0;
+    bottom: 10px;
+    background: #000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#voltar-topo a,
+#voltar-topo a:hover,
+#voltar-topo a:visited {
+    text-decoration: none;
+    background: none;
+}
+
+#voltar-topo a:hover::before {
+    content: "";
+}
+
+body>header #logo {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#logo-principal {
+    width: inherit !important;
+    height: inherit !important;
+}
+
+body>header #cabecalho {
+    max-width: 79%;
+    height: 200px;
+    float: right;
+    padding: 6px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+#cabecalho blockquote {
+    padding: 4px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 1px #000;
+    max-width: 50%;
+    float: right;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 12pt;
+}
+
+#cabecalho blockquote a {
+    color: #cfcf5c;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#cabecalho blockquote a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.painel-ordem footer a::after {
+    font-family: Ionicons;
+    content: " \f363";
+}
+
+@media screen and (max-width: 360px) {
+    .painel-ordem {
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    .painel-ordem {
+        width: 45%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .painel-ordem {
+        width: 30%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
+
+#paineis {
+    height: 100%;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.painel-ordem {
+    background: #b9a78f;
+    min-height: 340px;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px #56442C;
+    position: relative;
+}
+
+.painel-ordem h1,
+.painel-ordem h2,
+.painel-ordem h3,
+.painel-ordem h4,
+.painel-ordem h5,
+.painel-ordem h6 {
+    text-align: left;
+    margin-top: 0;
+}
+
+.painel-ordem img {
+    margin-right: 20px;
+    float: left;
+    vertical-align: middle;
+    mix-blend-mode: multiply;
+}
+
+.painel-ordem header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    display: block;
+    min-height: 60px;
+}
+
+.painel-ordem p {
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    clear: both !important;
+    display: block;
+}
+
+.painel-ordem p::after {
+    content: "";
+    display: block;
+    height: 20px;
+}
+
+.painel-ordem footer {
+    width: 95%;
+    display: block;
+    text-align: right;
+    padding: 6px;
+    bottom: 4px;
+    padding: 4px 10px;
+    position: absolute;
+    height: 40px;
+}
+
+.painel-ordem footer a {
+    padding: 6px;
+    display: inline-block;
+    background: #56442C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+.painel-ordem footer a:hover {
+    background: #96846C;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.painel-ordem footer a::after {
+    font-family: Ionicons;
+    content: " \f363";
+}
+
+mark {
+    background-color: #c6b49C;
+}

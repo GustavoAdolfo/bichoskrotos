@@ -4,7 +4,8 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta charset="utf-8">
-    <title>BichoSkrotos - Versão 0.1.004 (Ordem Hemiptera)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>BichoSkrotos - Versão 0.1.004</title>
     <meta name="application-name" content="BichoSkrotos" />
     <meta name="custodian" content="Gustavo Adolfo">
     <meta name="description" content="Site criado para estudo preparatório ao exame de certificação MS 70-480">
@@ -34,11 +35,12 @@
     <!-- Google+ -->
     <meta itemprop="name" content="BichoSkrotos">
     <meta itemprop="description" content="Programando com os insetos, pois somente eles sobreviverão">
-    <meta itemprop="image" content="/img/logo2.png">    
+    <meta itemprop="image" content="/img/logo2.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="/img/logo2.png">
-    <meta name="twitter:site" content="@Gu57av0Ad01f0"> <!-- a página no Twitter do projeto (ainda não há) -->   
+    <meta name="twitter:site" content="@Gu57av0Ad01f0">
+    <!-- a página no Twitter do projeto (ainda não há) -->
     <meta name="twitter:title" content="BichoSkrotos">
     <meta name="twitter:description" content="Programando com os insetos, pois somente eles sobreviverão">
     <meta name="twitter:creator" content="@Gu57av0Ad01f0">
@@ -59,81 +61,136 @@
     <meta property="fb:admins" content="1619585915018740">
     <meta property="og:image" content="/img/logo2.png">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="276"> 
-    <meta property="og:image:height" content="200"> 
+    <meta property="og:image:width" content="276">
+    <meta property="og:image:height" content="200">
 
     <!-- Links -->
     <link rel="author" href="https://br.linkedin.com/in/gustavoadolfoas">
     <link rel="help" href="/sobre.html">
     <link rel="icon" href="/img/logo1.jpg" type="image/jpeg" sizes="128x128" />
-    <link rel="icon" href="img/logo2.png" type="image/png" sizes="256x256" />
+    <link rel="icon" href="/img/logo2.png" type="image/png" sizes="256x256" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32 64x64" />
 
     <link rel="stylesheet" type="text/css" href="/css/main.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="/css/site.css" media="all" />
 
     <script type="text/javascript" src="/js/main.js"></script>
 
 </head>
 
 <body>
-
     <header>
-        <div id="logo"><img src="/img/logo2.png" alt="Logotipo BichoSkrotos" title="Bichos Skrotos"></div>
-        <h1 title="Bichos Skrotos">BichoSkrotos</h1>
-        <p>Estudos Para Exame <b>MS 70-480</b></p>
-        <p>Programando com os insetos</p>
-
-        <blockquote>
-            <q>Oncinha pintada / Zebrinha listrada / Coelhinho peludo / Vão se fuder! / Porque aqui / Na face da terra / 
+        <div id="logo">
+            <img src="/img/logo2.png" alt="Logotipo BichoSkrotos" title="Bichos Skrotos" id="logo-principal">
+        </div>
+        <div id="cabecalho" class="">
+            <h1 title="Bichos Skrotos">BichoSkrotos <span class="subtitulo">Estudos Para Exame <b>MS 70-480</b></span></h1>
+            <h2>Programando com os insetos</h2>
+            <blockquote>
+                <q cite="http://www.titas.net/discografia">Oncinha pintada / Zebrinha listrada / Coelhinho peludo / Vão se fuder! / Porque aqui / Na face da terra / 
                 Só bicho escroto  / É o que vai ter.</q>
-            <cite><a href="http://www.titas.net/" target="_blank" title="Site oficial da banda Titãs">Titãs</a> - Álbum Cabeça Dinossauro</cite>
-        </blockquote>
-
-        <nav>
+                <!--<br/>-->
+                <cite><a href="http://www.titas.net" target="_blank" title="Site oficial da banda Titãs">Titãs</a> - Álbum Cabeça Dinossauro</cite>
+            </blockquote>
+        </div>
+        <div class="clearfix"></div>
+        <nav id="menu">
             <ul>
                 <li><a title="Página inicial" href="/index.html">Início</a></li>
                 <li><a title="Os insetos" href="/insetos.html">Os Insetos</a></li>
-                <li><a title="O que é entomologia" href="/entomologia.html">Entomologia</a></li>
-                <li><a title="Ordem Thysanura" href="/thysanura/index.html">Ordem Thysanura</a></li>
-                <li><a title="Ordem Ephemeroptera" href="/ephemeroptera/index.html">Ordem Ephemeroptera</a></li>
-                <li><a title="Ordem Odonata" href="/odonata/index.html">Ordem Odonata</a></li>
-                <li><a title="Ordem Plecoptera" href="/plecoptera/index.html">Ordem Plecoptera</a></li>
-                <li><a title="Ordem Blattodea" href="/blattodea/index.html">Ordem Blattodea</a></li>
-                <li><a title="Ordem Isoptera" href="/isoptera/index.html">Ordem Isoptera</a></li>
-                <li><a title="Ordem Mantodea" href="/mantodea/index.html">Ordem Mantodea</a></li>
-                <li><a title="Ordem Dermaptera" href="/dermaptera/index.html">Ordem Dermaptera</a></li>
-                <li><a title="Ordem Orthoptera" href="/orthoptera/index.html">Ordem Orthoptera</a></li>
-                <li><a title="Ordem Phasmatodea" href="/phasmatodea/index.html">Ordem Phasmatodea</a></li>
-                <li><a title="Ordem Phthiraptera" href="/phthiraptera/index.html">Ordem Phthiraptera</a></li>
-                <li><a title="Ordem Thysanoptera" href="/thysanoptera/index.html">Ordem Thysanoptera</a></li>
-                <li><a title="Ordem Hemiptera" href="#">Ordem Hemiptera</a></li>
-                <li><a title="Ordem Neuroptera" href="/neuroptera/index.html">Ordem Neuroptera</a></li>
-                <li><a title="Ordem Coleoptera" href="/coleoptera/index.html">Ordem Coleoptera</a></li>
-                <li><a title="Ordem Siphonaptera" href="/siphonaptera/index.html">Ordem Siphonaptera</a></li>
-                <li><a title="Ordem Diptera" href="/diptera/index.html">Ordem Diptera</a></li>
-                <li><a title="Ordem Lepidoptera" href="/lepidoptera/index.html">Ordem Lepidoptera</a></li>
-                <li><a title="Ordem Hymenoptera" href="/hymenoptera/index.html">Ordem Hymenoptera</a></li>
+                <li><a title="O que é entomologia" href="/entomologia.html">Entomologias</a></li>
+                <li><a title="Ordem Blattodea" href="/blattodea/index.html">Blattodeas</a></li>
+                <li><a title="Ordem Coleoptera" href="/coleoptera/index.html">Coleopteras</a></li>
+                <li><a title="Ordem Dermaptera" href="/dermaptera/index.html">Dermapteras</a></li>
+                <li><a title="Ordem Diptera" href="/diptera/index.html">Dipteras</a></li>
+                <li><a title="Ordem Ephemeroptera" href="/ephemeroptera/index.html">Ephemeropteras</a></li>
+                <li><a title="Ordem Hemiptera" href="#">Hemipteras</a></li>
+                <li><a title="Ordem Hymenoptera" href="/hymenoptera/index.html">Hymenopteras</a></li>
+                <li><a title="Ordem Isoptera" href="/isoptera/index.html">Isopteras</a></li>
+                <li><a title="Ordem Lepidoptera" href="/lepidoptera/index.html">Lepidopteras</a></li>
+                <li><a title="Ordem Mantodea" href="/mantodea/index.html">Mantodeas</a></li>
+                <li><a title="Ordem Neuroptera" href="/neuroptera/index.html">Neuropteras</a></li>
+                <li><a title="Ordem Odonata" href="/odonata/index.html">Odonatas</a></li>
+                <li><a title="Ordem Orthoptera" href="/orthoptera/index.html">Orthopteras</a></li>
+                <li><a title="Ordem Phasmatodea" href="/phasmatodea/index.html">Phasmatodeas</a></li>
+                <li><a title="Ordem Phthiraptera" href="/phthiraptera/index.html">Phthirapteras</a></li>
+                <li><a title="Ordem Plecoptera" href="/plecoptera/index.html">Plecopteras</a></li>
+                <li><a title="Ordem Siphonaptera" href="/siphonaptera/index.html">Siphonapteras</a></li>
+                <li><a title="Ordem Thysanoptera" href="/thysanoptera/index.html">Thysanopteras</a></li>
+                <li><a title="Ordem Thysanura" href="/thysanura/index.html">Thysanuras</a></li>
                 <li><a title="Curiosidades" href="/curiosidades.html">Curiosidades</a></li>
-                <li><a title="Sobre o Bichos Skrotos" href="/sobre.html">Sobre</a></li>
+                <li><a title="Sobre o autor e o projeto" href="/sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <article>
+            <header>
+                <h2>Hemiptera</h2>
+            </header>
+            <section>
+                Hemiptera ( /hɛˈmɪptərə/, hemípteros, por vezes Rhynchota) é uma ordem de insectos que inclui entre 50 000 e 80 000 espécies,[2] sendo comum citar-se 67 500 espécies conhecidas, entre as quais alguns dos grupos mais comuns e conhecidos de insectos sugadores,
+                entre os quais as cigarras, cigarrinhas, afídios e bichos-frade. As espécies incluídas neste agrupamento variam em tamanho de inferior a 1 mm a mais de 15 cm, tendo em comum uma estrutura bucal adaptada para perfurar e sugar seiva e alimentos
+                liquefeitos.[3] O grupo mais representativo e no qual se concentram as principais características definidoras é a subordem Heteroptera.[4] Índice 1 Distribuição e características 2 Taxonomia 3 Ciclo de vida e ecologia 4 Significado económico
+                5 Algumas famílias 6 Referências 7 Ligações externas Distribuição e características A ordem tem distribuição cosmopolita, com espécies distribuídas por todo o mundo, mas com maior biodiversidade nas regiões tropicais e subtropicais. A
+                característica anatómica definidora dos hemípteros, que os distingue dos outros insectos, é a presença, tanto na forma adulta como nas formas ninfais, de peças bucais adaptadas à perfuração e sucção, formando uma longa "tromba" ou "bico"
+                designado por rostro (frequentemente referido pela designação latina rostrum). Esta estrutura bucal resulta da inclusão das mandíbulas e maxilas (maxillae) num labium modificado para formar o "rostro", uma probóscide capaz de perfurar
+                tecidos (geralmente tecidos vegetais) e sugar líquidos (na maior parte dos casos, seiva). Ainda que a maioria seja fitófaga e se alimente de seiva e outros sucos produzidos por plantas, algumas espécies são hematófagas (alimentam-se de
+                sangue) de outros animais e outras são entomófagas (predadores de outros insectos) ou predadoras de pequenos animais pertencentes a diversos grupos taxonómicos, injectando um fluido digestivo nas suas presas e posteriormente sugando os
+                tecidos liquefeitos. As asas dianteiras dos Hemiptera são nalguns casos inteiramente membranosas, como nas subordens Sternorrhyncha e Auchenorrhyncha, ou parcialmente endurecidas, como na maioria dos Heteroptera. O nome "Hemiptera" foi
+                derivado do grego ἡμι- (hemi; "metade") e πτερόν (pteron; "asa"), uma referência à estrutura característica das asas dos hemípteros, em geral endurecidas junto à base, mas membranosas na parte terminal (distal). As asas que apresentam
+                este tipo de modificação são em geral designadas por hemi-élitros por analogia com as asas totalmente endurecidas, designadas por élitros, dos escaravelhos, e ocorrem apenas na subordem Heteroptera. As asas dianteiras podem dobrar-se como
+                se fossem um "telhado" sobre o corpo (típico dos Sternorrhyncha e Auchenorrhyncha), ou mantidas planas sobre o dorso, com os extremos sobrepostos (típico dos Heteroptera). Em todas as subordens, as asas posteriores, quando existam, são
+                inteiramente membranosas e usualmente mais curtas que as asas dianteiras. As antenas dos Hemiptera são tipicamente formadas por apenas cinco segmentos, embora possam ainda assim ser bastante longas, e os tarsos das pernas apresentam três
+                segmentos ou menos.[5] Embora os hemípteros variem muito na sua morfologia geral, as suas peças bucais (modificadas para formar um "rostro") são muito características e distintas. Aparelhos bucais modificados de modo semelhante apenas
+                ocorrem entre os Thysanoptera e em alguns Phthiraptera, e estes são geralmente fáceis de reconhecer como não hemípteros por outras razões morfológicas. Além dos aparelhos bucais modificados, vários insectos pode ser confundidos com hemípteros,
+                incluindo as baratas e os psocídeos, sendo que ambos estes grupos têm antenas mais segmentadas, e alguns escaravelhos, mas estes apresentam asas anteriores completamente endurecidas e que não se sobrepõem.[6] Taxonomia Os membros da actual
+                ordem Hemiptera foram historicamente integrados em duas ordem, Homoptera e Heteroptera (ou Hemiptera), com base em diferenças na estrutura das asas e na posição do rostro. A melhor compreensão da morfologia destes animais levou a que as
+                duas ordens fossem combinadas numa única ordem, para a qual foi adoptado o nome de Hemiptera, com muitas autoridades taxonómicas a manterem Homoptera e Heteroptera classificadas como subordens. Na actualidade a ordem é geralmente dividida
+                em quatro ou mais subordens em resultado de se ter comprovado que as famílias agrupadas em "Homoptera" não eram estreitamente aparentadas como se havia acreditado, o que fazia daquela subordem um agrupamento parafilético. A divisão presentemente
+                aceite propõe a seguinte distribuição: Auchenorrhyncha — contém as cigarras e famílias próximas (Cicadellidae, Membracidae, Fulgoromorpha e Cercopoidea); Sternorrhyncha — agrupa as cerca de 12 500 espécie de afídeos em conjunto com as
+                moscas-brancas (Aleyrodidae) e as cochonilhas (Coccoidea); Coleorrhyncha — inclui apenas a família Peloridiidae, com menos de 30 espécies de insectos com distribuição natural derivada de uma origem no paleocontinente Gondwana. Este grupo
+                é por vezes associado com os Heteroptera para formar a subordem Prosorrhyncha. Heteroptera — agrupa cerca de 25 000 espécies de insectos de dimensões relativamente grandes, incluindo as famílias Pentatomoidea, Lygaeoidea, Reduviidae, Anthocoridae,
+                Coreidae e os grupos de hábito aquático Corixidae e Nepidae. A subordem Prosorrhyncha, proposta mas ainda sem aceitação geral, agrupa os Coleorrhyncha com os Heteroptera, criando uma única subordem para os taxa de maiores dimensões e com
+                morfologia distinta geralmente conhecidos por heterópteros. A análise da filogenia da ordem Hemiptera permitiu concluir que os agrupamentos mais próximos são os Thysanoptera (tripes) e Phthiraptera (piolhos), que colectivamente forma o
+                "agrupamento hemipteroide" entre os Exopterygota, uma subclasse da classe Insecta.[7] O registo fóssil dos hemípteros estende-se desde o Pérmico Inferior (Cisuraliano).[8] Os homópteros apareceram primeiro, com os heterópteros a surgiram
+                durante o Triássico.[9] Ciclo de vida e ecologia Os hemípteros apresentam um ciclo de vida caracterizado por hemimetabolia, o que significa que não sofrem metamorfose entre as fases de larva e de imago (adulto). Em consequência, os seus
+                juvenis, designados por ninfas, assemelham-se em muito aos adultos, pelo que a transformação final envolve pouco mais do que o desenvolvimento de asas funcionais (quando elas estão presentes no adulto) e a entrada em funcionamento dos
+                órgãos sexuais. No processo de não há estado pupal como acontece nos insectos com ciclo de vida enquadrável na categoria de holometabolismo (entre os quais os Lepidoptera, Coleoptera, Diptera e Hymenoptera). Muitos afídios são partenogénicos
+                durante parte do seu ciclo de vida, com as fêmeas a produzirem ovos não fertilizados viáveis a partir dos quais emergem juvenis que são clones das suas progenitoras. A maioria dos hemípteros são fitófagos, alimentando-se da seiva de plantas,
+                tais como os pulgões, as cochonilhas e as cigarras. Os restantes são predadores que se alimentam de outros insectos, ou mesmo de pequenos vertebrados, ingerindo o alimento após liquefacção por injecção de fluidos digestivos. Alguns, contudo,
+                são parasitas que praticam a hematofagia (alimentação por sangue) tendo como hospedeiros animais maiores. Neste último grupo estão incluídos alguns importantes parasitas dos humanos, entre os quais os percevejos e os "barbeiros" da família
+                Reduviidae, animais que podem transmitir infecções potencialmente fatais, como o tripanossomíase.[2] Várias famílias de Hemiptera são insectos aquáticos, adaptados à vida aquática, entre os quais os Corixidae e os Nepidae. Estes organismos
+                são na sua maioria predadores, com pelo menos um par de pernas adaptado como remos para ajudar o movimento dos animais através da água. Os membros da família Gerridae, que inclui os alfaiates, também está adaptada à vida em ambiente aquático,
+                mas usam a tensão superficial da água parada para mantê-los acima da superfície, parecendo por isso caminhar sobre a água. Esta família inclui o género Halobates, o único grupo de insectos que pode ser considerado como tendo espécies verdadeiramente
+                marinhas.[2] Significado económico Muitas espécies de Hemiptera são pragas importantes das culturas agrícolas e silvícolas e de jardins, incluindo muitas espécies de afídios e várias cochonilhas, entre as quais a espécie Icerya purchasi,
+                uma praga cuja infestação nas culturas de citrinos da América do Norte desencadeou um dos primeiros programas de controlo biológico de pragas, levando à introdução no Estados Unidos do escaravelho australiano Rodolia cardinalis como um
+                inimigo natural daquela cochonilha.[10] Por outro lado, alguns hemípteros predadores são considerados agentes de controlo biológico de pragas agrícolas, entre os quais vários Nabidae,[11] e mesmo alguns membros de famílias que são primariamente
+                fitófagas, tais como o género Geocoris da família Lygaeidae.[12] Outros hemípteros têm usos económicos directos, tais como na produção de materiais corantes pelas cochonilhas, como o carmesim produzido por Dactylopius coccus ou a goma-laca
+                produzida pela fêmea da espécie Kerria lacca. Algumas famílias Entre muitas outras, a ordem Hemiptera inclui as seguintes famílias: Cicadidae Belostomatidae Pentatomidae Pemphigidae Anoeciidae Thelaxidae Lachnidae Drepanosiphidae Delphacidae
+                Eurybrachyidae
+
+            </section>
+            <footer>
+
+            </footer>
+        </article>
+
+        <aside></aside>
     </main>
 
     <footer>
         <p>O objetivo desse site é praticar os conhecimentos adquiridos para o exame de certificação da Microsoft 70-480.</p>
-        <p>Todo o conteúdo informativo aqui utilizado foi retirado das fontes citadas e mantidas às quais todos os direitos
-            são reservados.</p>
+        <p>Todo o conteúdo informativo aqui utilizado foi retirado das fontes citadas e mantidas às quais todos os direitos são reservados.</p>
         <p>
             <span>Versão: <b>0.1.004</b></span>
             <span>Última revisão: <time datetime="2016-07-28">27/07/2016</time></span>
             <span><a href="https://github.com/GustavoAdolfo/bichoskrotos" title="Repositório no GitHub" target="_blank">GitHub</a></span>
         </p>
     </footer>
-
+    <div id="voltar-topo"><a href="#menu">Voltar ao topo</a></div>
 </body>
 
 </html>

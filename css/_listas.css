@@ -1,0 +1,42 @@
+ul.lista-colunada {
+    padding: 5px;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul.lista-colunada li {
+    list-style: none;
+    display: block;
+    height: 20px;
+    padding: 3px 20px;
+}
+
+ul.lista-colunada li:nth-child(odd) {
+    /* os LI impares recebem uma quebra de linha e são alinhados à esquerda com
+    largura de 50% e os li da direita herdam o espaço retante */
+    clear: both;
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+ul.lista-colunada li:nth-child(even) {
+    text-align: left;
+}
+
+dl {
+    padding: 5px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+dd {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 115%;
+    text-align: justify;
+    clear: both;
+}

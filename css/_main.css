@@ -1,0 +1,335 @@
+@import url("/css/ionicons.css");
+
+/*
+BichoSkrotos - Estudo para exame de certificação MS 70-480 - Gustavo Adolfo - gustavo.adolfo.as@gmail.com
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    background: #96846C;
+    font: 100%/1 -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+body>header {
+    margin-bottom: 20px;
+    border-bottom: 2px double #5B4F3E;
+    /*background: #86745C;*/
+    background: #33391f;
+    /*height: 240px;
+    overflow: hidden;*/
+    display: block;
+    color: #ccc;
+    /*#dfcf5f;*/
+}
+
+body>header h1,
+body>header h2,
+body>header h3,
+body>header h4,
+body>header h5,
+body>header h6 {
+    color: #fff;
+    /*#253f10;*/
+}
+
+body>header h1 {
+    font-size: 36pt;
+    text-shadow: -3px -3px 2px #dfcf5f;
+}
+
+body>header h1>span {
+    font-size: 40%;
+    text-shadow: none;
+}
+
+body>header p {
+    line-height: 125%;
+    text-align: center;
+    padding: 6px;
+}
+
+body>header nav {
+    display: block;
+    width: 100%;
+    float: none;
+    clear: both;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 5px;
+    z-index: 100;
+    font-size: .8em;
+    color: #ddd;
+    border-top: 2px groove #99991f;
+}
+
+header nav>ul li {
+    display: inline;
+}
+
+nav li a {
+    display: table-cell;
+    padding: 3px 6px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 3px;
+    width: 120px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+nav li a,
+nav li a:visited {
+    color: #dfcf5f;
+}
+
+nav li a:hover {
+    background: #96846C !important;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+nav li a:hover::after {
+    font-family: Ionicons !important;
+    content: " \f363";
+}
+
+nav li a:active {
+    background: #c6c4cC !important;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+nav li a:active::before {
+    font-family: Ionicons !important;
+    content: "\f35f\ " !important;
+}
+
+nav li a:active::after {
+    font-family: Ionicons !important;
+    content: " \f35f" !important;
+}
+
+main {
+    padding: 6px;
+    margin: 10px 40px;
+    /* margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px; */
+    clear: both;
+    /* display: table; */
+}
+
+section {
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+main p {
+    line-height: 1.25em;
+}
+
+figure {
+    padding: 4px;
+    border: 1px groove #ccc;
+    width: auto;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 11pt;
+    background: #fff;
+    padding: 3px;
+}
+
+main img {
+    vertical-align: middle;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    padding: 3px 6px 6px 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+main h1 {
+    font-size: 1.90em;
+}
+
+main h2 {
+    font-size: 1.65em;
+}
+
+main h3 {
+    font-size: 1.35em;
+}
+
+main h4 {
+    font-size: 1.15em;
+}
+
+main h5 {
+    font-size: .90em;
+}
+
+main h6 {
+    font-size: .75em;
+}
+
+main p {
+    margin-bottom: 6px;
+    padding: 2px;
+    text-align: justify;
+}
+
+.clearfix {
+    clear: both;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    .invisivel-menor-980 {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px),
+screen and (min-width: 980px) {
+    .invisivel-menor-768 {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+footer {
+    display: block;
+    clear: both;
+    width: 100%;
+    padding: 6px 12px;
+    line-height: 115%;
+}
+
+footer a,
+footer a:visited {
+    color: #dfcf5f !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline overline;
+    background: none;
+}
+
+main section>footer {
+    text-align: left;
+    border-top: 2px double #454545;
+    border-bottom: 2px double #454545;
+    font-size: 80%;
+}
+
+body>footer {
+    font-size: 9pt;
+    text-align: center;
+    background: #5c5c5c;
+    color: #fff;
+    letter-spacing: 0.15em;
+    bottom: 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+body a {
+    color: #3f3063;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #fff;
+    background: #000;
+}
+
+strong,
+b {
+    letter-spacing: .15em;
+}
+
+@media screen and (max-width: 360px) {
+    .painel-ordem {
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    .painel-ordem {
+        width: 45%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .painel-ordem {
+        width: 30%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
+
+aside~article {
+    float: left;
+    margin-right: 20%;
+}
+
+
+/* aside {
+    width: 240px;
+    margin-left: 20px;
+} */
+
+aside {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    float: right;
+    background-color: #76644C;
+    width: 20%;
+    font-size: 90%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 15px;
+    font-family: cursive;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+aside>ul {
+    /* margin-left: 5px;*/
+    list-style: none;
+}
+
+aside>ul li {
+    display: block;
+    height: 20px;
+    clear: both;
+}
+
+aside>ul li::first-letter {
+    font-weight: bold;
+}

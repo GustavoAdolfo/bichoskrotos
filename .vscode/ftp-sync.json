@@ -1,0 +1,29 @@
+{
+    "remotePath": "./",
+    "host": "bichoskrotos.codigoharmonico.blog.br",
+    "username": "garudain",
+    "password": "1lumin@d0",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        ".directory",
+        ".gitinore",
+        "README.md",
+        "LICENCE"
+
+    ],
+    "generatedFiles": {
+        "uploadOnSave": true,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
